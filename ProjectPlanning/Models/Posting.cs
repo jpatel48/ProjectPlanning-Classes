@@ -13,7 +13,7 @@ namespace ProjectPlanning.Models
             this.Applications = new HashSet<Application>();
         }
 
-        [Display(Name = "Job Posting")]
+        [Display(Name = "Job Postings")]
         public int ID { get; set; }
 
         [Display(Name = "Title")]
